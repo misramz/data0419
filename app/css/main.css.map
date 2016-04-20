@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","sources":["main.scss"],"sourcesContent":[".container {\n  background-color: pink;\n  width: 800px;\n}\n\n.title {\n  font-size: 20px;\n  \n}\n"],"mappings":"AAAA,UAAU,CAAC;EACT,gBAAgB,EAAE,IAAK;EACvB,KAAK,EAAE,KAAM,GACd;;AAED,MAAM,CAAC;EACL,SAAS,EAAE,IAAK,GAEjB","names":[],"sourceRoot":"/source/"}
