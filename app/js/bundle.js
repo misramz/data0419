@@ -9851,7 +9851,20 @@ var _jquery = require('jquery');
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
-var baseURL = 'https://randomuser.me/api';
+//
+// $.ajax({
+//   url: 'https://randomuser.me/api/',
+//   dataType: 'json',
+//   success: function(data){
+//   console.log(data);
+//   }
+// });
+
+var baseURL = 'https://randomuser.me/api/?results=12&nat=us';
+var dataReq = _jquery2['default'].getJSON(url);
+
+var inner = (0, _jquery2['default'])('.inner');
+console.log(url);
 
 },{"jquery":1}]},{},[2])
 
