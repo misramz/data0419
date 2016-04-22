@@ -1,8 +1,35 @@
 .container {
   background-color: pink;
-  width: 800px; }
+  width: 800px;
+  text-align: center; }
 
 .title {
+  font-size: 50px; }
+
+.user {
+  width: 220px;
+  float: left;
+  margin: 10px 10px;
+  overflow: hidden; }
+
+h4 {
+  font-size: 12px;
+  color: grey; }
+
+h3 {
   font-size: 20px; }
+
+.ssn {
+  color: green;
+  color: transparent;
+  text-shadow: 0 0 5px green; }
+
+span {
+  border-bottom: 1px solid green;
+  display: inline-block; }
+
+.ssn:hover {
+  color: green;
+  text-shadow: none; }
 
 /*# sourceMappingURL=main.css.map */
